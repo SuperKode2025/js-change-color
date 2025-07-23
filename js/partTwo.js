@@ -6,10 +6,10 @@ function alternarColorFondo() {
   
   if (currentColor === 'darkblue') {
     body.style.backgroundColor = 'red';
-    if (colorText) colorText.textContent = 'red';
+    if (colorText) colorText.textContent = 'Rojo';
   } else {
     body.style.backgroundColor = 'darkblue';
-    if (colorText) colorText.textContent = 'darkblue';
+    if (colorText) colorText.textContent = 'Azul';
   }
 }
 
